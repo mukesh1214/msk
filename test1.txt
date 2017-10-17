@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 added 1st line by server
+fhkjhhfg=======
+added 1st line by client machine
+>>>>>>> 4126d61548dc361ef0912c16ae36190763a9f23a
