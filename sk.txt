@@ -1,7 +1,15 @@
 123
 dev222huhfhsh
 fjgjhghjg
+<<<<<<< HEAD
 123456
+=======
+12345
+>>>>>>> 456cb56ef1910bf2ab8e689c73079215b6cc70d5
 1234466
 >>>>>>> d9212bd1b4966d6975d1e27c70fa5a5821b17b1f
 hello
+hduhdfu
+lfhkhf
+dlfhfkjh
+
