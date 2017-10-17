@@ -1,8 +1,7 @@
 123
 dev222huhfhsh
 fjgjhghjg
-123456
-=======
+12345
 1234466
 >>>>>>> d9212bd1b4966d6975d1e27c70fa5a5821b17b1f
-
+hello
