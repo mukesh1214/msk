@@ -31,7 +31,7 @@
 <url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
 </repository>
 
-  <snapshotRepository>
+ <snapshotRepository>
 <id>mukesh</id>
 <name>Internal Releases</name>
 <url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
