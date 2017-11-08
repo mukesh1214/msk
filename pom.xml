@@ -22,19 +22,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <distributionManagement>
-   
-<repository>
-<id>deployment</id>
-<name>Internal Releases</name>
-<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
-</repository>
 
+  <distributionManagement>
 
-<snapshotRepository>
-<id>deployment</id>
+   <repository>
+ <id>1.0-SNAPSHOT</id>
 <name>Internal Releases</name>
 <url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
+</repository>
+
+  <snapshotRepository>
+<id>1.0</id>
+<name>Internal Releases</name>
+<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
 </snapshotRepository>
 
 </distributionManagement>
