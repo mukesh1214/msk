@@ -4,7 +4,7 @@
 
   <groupId>com.rns.app</groupId>
   <artifactId>maven-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>maven-app</name>
@@ -22,17 +22,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-    <id>deployment</id>
-<name>1.0</name>
-<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
-</repository>
+ <distributionManagement>
+   
 <repository>
 <id>deployment</id>
-<name>1.0-SNAPSHOT</name>
-<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
+<name>Internal Releases</name>
+<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
 </repository>
+
+
+<snapshotRepository>
+<id>deployment</id>
+<name>Internal Releases</name>
+<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
+</snapshotRepository>
 
 </distributionManagement>
 </project>
