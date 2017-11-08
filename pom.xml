@@ -28,10 +28,6 @@
 <name>1.0</name>
 <url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/releases/</url>
 </repository>
-<snapshotRepository>
-<id>deployment</id>
-<name>1.0-SNAPSHOT</name>
-<url>http://192.168.204.130:8090/nexus%2D2.11.4%2D01/content/repositories/snapshots/</url>
-</snapshotRepository>
+
 </distributionManagement>
 </project>
